@@ -1,3 +1,5 @@
+# From https://github.com/github/gitignore/blob/master/Node.gitignore :
+
 # Logs
 logs
 *.log
@@ -25,3 +27,7 @@ build/Release
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules
+
+# End Node.gitignore
+
+www/bower_components

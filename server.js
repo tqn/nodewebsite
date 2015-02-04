@@ -48,9 +48,7 @@ module.exports = {
 			httpaccessrules.ignore.forEach(function (value, index, array) {
 				switch (value.type) {
 				case 'regex':
-					console.log(array[index]);
 					array[index] = new RegExp(value.value);
-					console.log(array[index]);
 					break;
 				case 'string':
 					array[index] = value.value;

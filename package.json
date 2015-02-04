@@ -4,8 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node website.js",
+    "test": "node main.js"
   },
   "engines": {
     "node": "0.10.26"

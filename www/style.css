@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+$font-family-sans-serif: 			'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+$body-bg: 							   ;
+$jumbotron-bg: 						#FFFFFF;
+
+@import 'bootstrap';
+
+html,body
+{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ecf0f1;
+}
+
+.jumbotron
+{
+	margin: 100px;
+	padding: 100px;
+}
+
+.right
+{
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}

@@ -80,7 +80,7 @@ module.exports = {
 				var currentMatchResult = req.url.match(ignoreuri);
 				if (currentMatchResult !== null && currentMatchResult[0] === currentMatchResult.input) {
 					console.log("IGNORE: " + req.url);
-					res.writeHead(200, {'Content-Type': 'text/plain'});
+					res.writeHead(403, {'Content-Type': 'text/plain'});
 					res.write('You don\'t have permission to access ' + req.url + ' on this server.');
 					res.end();
 					return;
